@@ -1,0 +1,83 @@
+{
+    "Nodes": [
+        {
+            "Id": 1,
+            "Op": "add",
+            "Children": [
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "Start": true
+        },
+        {
+            "Id": 2,
+            "Op": "double",
+            "Children": [
+                8,
+                9
+            ]
+        },
+        {
+            "Id": 3,
+            "Op": "double",
+            "Children": [
+                7
+            ]
+        },
+        {
+            "Id": 4,
+            "Op": "double",
+            "Children": [
+                8,
+                9
+            ]
+        },
+        {
+            "Id": 5,
+            "Op": "double",
+            "Children": [
+                9
+            ]
+        },
+        {
+            "Id": 6,
+            "Op": "double",
+            "Children": [
+                8
+            ]
+        },
+        {
+            "Id": 7,
+            "Op": "double",
+            "Children": [
+                10
+            ]
+        },
+        {
+            "Id": 8,
+            "Op": "exp",
+            "Args": [
+                2
+            ],
+            "Children": [
+                10
+            ]
+        },
+        {
+            "Id": 9,
+            "Op": "double",
+            "Children": [
+                10
+            ]
+        },
+        {
+            "Id": 10,
+            "Op": "double",
+            "Children": [],
+            "End": true
+        }
+    ]
+}

@@ -5,3 +5,4 @@ dist/
 *.log
 .aws-sam
 *.old
+venv/
